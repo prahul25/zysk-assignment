@@ -28,7 +28,7 @@ function Hero() {
 
       {/* Mobile Image (Visible on screens smaller than md) */}
       <div className='block md:hidden'>
-        <Image src="/Container.png" alt='Mobile Banner' layout='responsive' height={500} width={600} quality={100} />
+        <Image src="/Container.png" alt='Mobile Banner' layout='responsive' height={500} width={1000} quality={100} />
       </div>
     </div>
   )
