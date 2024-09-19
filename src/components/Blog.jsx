@@ -66,7 +66,7 @@ function Blog() {
             <MdArrowOutward className='h-5 w-5'/>
           </div>
           <p className='text-[#475467] text-[15px]'>
-            Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.
+            Linear helps streamline software projects, sprints, tasks, and bug tracking. Here&apos;s how to get started.
           </p>
           <div className='flex items-center gap-3 mt-4'>
             <Image 

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function Hero() {
   return (
-    <div className='flex items-center flex-col gap-4 py-12'>
+    <div className='flex items-center flex-col gap-4 mt-14'>
       <div className='bg-[#F9F5FF] text-[#6941C6] text-sm flex p-1 rounded-full gap-3 items-center border border-[#E9D7FE]'>
         <div className='px-2 bg-white rounded-full border border-[#D6BBFB]'>New feature</div>
         <div>Check out the team dashboard</div>

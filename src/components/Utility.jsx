@@ -56,7 +56,7 @@ function Utility() {
           </div>
           <div className='font-semibold'>Manage your team with reports</div>
           <div className='text-[#475467] mt-2'>
-            Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.
+            Measure what matters with Untitled&apos;s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.
           </div>
           <div className='mt-4 text-[#6941C6] text-sm flex px-2 rounded-full gap-3 items-center'>
             <div>Learn more</div>

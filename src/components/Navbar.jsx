@@ -7,9 +7,8 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className='flex justify-between h-20 items-center px-4 md:px-20'>
+    <div className='flex justify-between h-20 items-center px-4 md:px-20 bg-[#eadcff]'>
       <div className='flex'>
-        {/* Logo and Title */}
         <div className='flex items-center'>
           <Image src="/Logomark.png" alt='Logo' width={40} height={30}/>
           <p className='font-bold text-lg px-1'>
@@ -38,7 +37,7 @@ function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className='absolute top-20 left-0 w-full bg-transparent flex items-center space-x-4 justify-around md:hidden'>
+        <div className='absolute top-20 bg-[#f3edfd] left-0 w-full bg- flex items-center space-x-4 py-2 justify-around md:hidden'>
           <p>Home</p>
           <p>Products</p>
           <p>Resources</p>
