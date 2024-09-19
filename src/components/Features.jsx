@@ -17,9 +17,9 @@ function Features() {
         </p>
       </div>
       
-      {/* Responsive grid */}
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-8 justify-center mx-auto w-full max-w-7xl mt-10'>
-        {/* Feature Card 1 */}
+      
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto w-full max-w-7xl mt-10'>
+        
         <div className='flex flex-col items-center text-center w-full p-4 border border-gray-200 rounded-lg'>
           <div className='p-2 border border-gray-300 rounded-md mb-4'>
             <IoChatbubblesOutline size={24} />
@@ -30,7 +30,7 @@ function Features() {
           </div>
         </div>
 
-        {/* Feature Card 2 */}
+        
         <div className='flex flex-col items-center text-center w-full p-4 border border-gray-200 rounded-lg'>
           <div className='p-2 border border-gray-300 rounded-md mb-4'>
             <RiFlashlightLine size={24} />
@@ -41,7 +41,7 @@ function Features() {
           </div>
         </div>
 
-        {/* Feature Card 3 */}
+       
         <div className='flex flex-col items-center text-center w-full p-4 border border-gray-200 rounded-lg'>
           <div className='p-2 border border-gray-300 rounded-md mb-4'>
             <FaRegShareSquare size={24} />
@@ -52,7 +52,7 @@ function Features() {
           </div>
         </div>
 
-        {/* Feature Card 4 */}
+       
         <div className='flex flex-col items-center text-center w-full p-4 border border-gray-200 rounded-lg'>
           <div className='p-2 border border-gray-300 rounded-md mb-4'>
             <RiChatSmile2Line size={24} />
@@ -63,7 +63,7 @@ function Features() {
           </div>
         </div>
 
-        {/* Feature Card 5 */}
+        
         <div className='flex flex-col items-center text-center w-full p-4 border border-gray-200 rounded-lg'>
           <div className='p-2 border border-gray-300 rounded-md mb-4'>
             <LuCommand size={24} />
@@ -74,14 +74,14 @@ function Features() {
           </div>
         </div>
 
-        {/* Feature Card 6 */}
+        
         <div className='flex flex-col items-center text-center w-full p-4 border border-gray-200 rounded-lg'>
           <div className='p-2 border border-gray-300 rounded-md mb-4'>
             <TbBubblePlus size={24} />
           </div>
           <div className='font-semibold'>Our people make the difference</div>
           <div className='text-[#475467] mt-2'>
-            We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.
+            We&apos;re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.
           </div>
         </div>
       </div>
